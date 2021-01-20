@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://SpringSprite/SpringSprite.gd" type="Script" id=1]
+
+[node name="SpringSprite" type="Sprite"]
+script = ExtResource( 1 )
+stiffness = 4.0
+damping = 0.6
